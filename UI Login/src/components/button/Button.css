@@ -1,0 +1,32 @@
+
+.btn{
+    background: #1A4F8B;
+
+    height: 50px;
+    width: 344px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.40799999237060547px;
+text-align: center;
+
+border: #1A4F8B;
+
+color: #FFFFFF;
+
+cursor: pointer;
+
+}
+
+.btn:hover{
+    background: #1A4F8B;
+    color: white;
+
+    opacity: 0.8;
+}
