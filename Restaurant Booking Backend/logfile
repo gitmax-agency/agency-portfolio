@@ -1,0 +1,25 @@
+2021-09-25 23:33:03.126 +06 [50722] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-25 23:33:03.128 +06 [50722] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-09-25 23:33:03.128 +06 [50722] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-09-25 23:33:03.128 +06 [50722] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-09-25 23:33:03.128 +06 [50722] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-09-25 23:33:03.128 +06 [50722] WARNING:  could not create listen socket for "localhost"
+2021-09-25 23:33:03.129 +06 [50722] FATAL:  could not create any TCP/IP sockets
+2021-09-25 23:33:03.130 +06 [50722] LOG:  database system is shut down
+2021-09-25 23:33:47.697 +06 [50776] FATAL:  lock file "postmaster.pid" already exists
+2021-09-25 23:33:47.697 +06 [50776] HINT:  Is another postmaster (PID 50766) running in data directory "/usr/local/var/postgres"?
+2021-09-25 23:34:09.462 +06 [50906] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-09-25 23:34:09.465 +06 [50906] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-25 23:34:09.465 +06 [50906] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-25 23:34:09.466 +06 [50906] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-25 23:34:09.471 +06 [50907] LOG:  database system was shut down at 2021-09-25 23:34:04 +06
+2021-09-25 23:34:09.474 +06 [50906] LOG:  database system is ready to accept connections
+2021-09-25 23:35:09.473 +06 [50906] LOG:  could not open file "postmaster.pid": No such file or directory
+2021-09-25 23:35:09.473 +06 [50906] LOG:  performing immediate shutdown because data directory lock file is invalid
+2021-09-25 23:35:09.474 +06 [50906] LOG:  received immediate shutdown request
+2021-09-25 23:35:09.474 +06 [50906] LOG:  could not open file "postmaster.pid": No such file or directory
+2021-09-25 23:35:09.475 +06 [50911] WARNING:  terminating connection because of crash of another server process
+2021-09-25 23:35:09.475 +06 [50911] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-09-25 23:35:09.475 +06 [50911] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-09-25 23:35:09.475 +06 [50912] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2021-09-25 23:35:09.479 +06 [50906] LOG:  database system is shut down
