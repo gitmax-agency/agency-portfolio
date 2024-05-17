@@ -1,0 +1,76 @@
+{
+  "name": "@indexer-fi/monorepo",
+  "version": "1.0.0",
+  "keywords": [
+    "ethereum",
+    "react",
+    "uniswap",
+    "workspaces",
+    "yarn"
+  ],
+  "private": true,
+  "scripts": {
+    "react-app:build": "yarn workspace @indexer-fi/react-app build --max-old-space-size=12288",
+    "react-app:eject": "yarn workspace @indexer-fi/react-app eject",
+    "react-app:start": "yarn workspace @indexer-fi/react-app start",
+    "react-app:test": "yarn workspace @indexer-fi/react-app test",
+    "build": "yarn workspace @indexer-fi/react-app build --max-old-space-size=12288",
+    "prettier": "yarn workspace @indexer-fi/react-app prettier",
+    "chain": "yarn workspace @indexer-fi/hardhat chain",
+    "fork": "yarn workspace @indexer-fi/hardhat fork",
+    "node": "yarn workspace @indexer-fi/hardhat chain",
+    "test": "yarn workspace @indexer-fi/hardhat test",
+    "start": "yarn workspace @indexer-fi/react-app start",
+    "compile": "yarn workspace @indexer-fi/hardhat compile",
+    "deploy": "yarn workspace @indexer-fi/hardhat deploy",
+    "verify": "yarn workspace @indexer-fi/hardhat verify",
+    "watch": "yarn workspace @indexer-fi/hardhat watch",
+    "accounts": "yarn workspace @indexer-fi/hardhat accounts",
+    "balance": "yarn workspace @indexer-fi/hardhat balance",
+    "send": "yarn workspace @indexer-fi/hardhat send",
+    "ipfs": "yarn workspace @indexer-fi/react-app ipfs",
+    "surge": "yarn workspace @indexer-fi/react-app surge",
+    "s3": "yarn workspace @indexer-fi/react-app s3",
+    "ship": "yarn workspace @indexer-fi/react-app ship",
+    "generate": "yarn workspace @indexer-fi/hardhat generate",
+    "account": "yarn workspace @indexer-fi/hardhat account",
+    "mineContractAddress": "cd packages/hardhat && npx hardhat mineContractAddress",
+    "wallet": "cd packages/hardhat && npx hardhat wallet",
+    "fundedwallet": "cd packages/hardhat && npx hardhat fundedwallet",
+    "flatten": "cd packages/hardhat && npx hardhat flatten",
+    "clean": "cd packages/hardhat && npx hardhat clean",
+    "run-graph-node": "yarn workspace @indexer-fi/services run-graph-node",
+    "remove-graph-node": "yarn workspace @indexer-fi/services remove-graph-node",
+    "clean-graph-node": "yarn workspace @indexer-fi/services clean-graph-node",
+    "graph-prepare": "mustache packages/subgraph/config/config.json packages/subgraph/src/subgraph.template.yaml > packages/subgraph/subgraph.yaml",
+    "graph-codegen": "yarn workspace @indexer-fi/subgraph graph codegen",
+    "graph-build": "yarn workspace @indexer-fi/subgraph graph build",
+    "graph-create-local": "yarn workspace @indexer-fi/subgraph graph create --node http://localhost:8020/ scaffold-eth/your-contract",
+    "graph-remove-local": "yarn workspace @indexer-fi/subgraph graph remove --node http://localhost:8020/ scaffold-eth/your-contract",
+    "graph-deploy-local": "yarn workspace @indexer-fi/subgraph graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 scaffold-eth/your-contract",
+    "graph-ship-local": "yarn graph-prepare && yarn graph-codegen && yarn graph-deploy-local",
+    "deploy-and-graph": "yarn deploy && yarn graph-ship-local",
+    "theme": "yarn workspace @indexer-fi/react-app theme",
+    "watch-theme": "yarn workspace @indexer-fi/react-app watch",
+    "postinstall": "husky install"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@graphprotocol/graph-ts",
+      "**/@graphprotocol/graph-ts/**",
+      "**/hardhat",
+      "**/hardhat/**",
+      "**/hardhat-ts",
+      "**/hardhat-ts/**"
+    ]
+  },
+  "dependencies": {
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2"
+  }
+}
