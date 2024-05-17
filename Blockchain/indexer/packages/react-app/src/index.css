@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.pool {
+  /* border: 2px #ccc solid; */
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px #aaaaaa;
+  background-color: #ffffff;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
