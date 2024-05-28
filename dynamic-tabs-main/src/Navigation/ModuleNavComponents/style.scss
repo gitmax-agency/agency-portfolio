@@ -1,0 +1,11 @@
+@import "../../style/variables";
+
+.module-nav {
+  display: flex;
+  margin-left: auto;
+}
+.timer {
+  font-size: 2rem;
+  color: $color-dark;
+  font-weight: 100;
+}

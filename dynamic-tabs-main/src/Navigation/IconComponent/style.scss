@@ -1,0 +1,15 @@
+@import "../../style/variables";
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 4.5rem;
+  min-width: 4rem;
+  width: fit-content;
+  padding: 0 0.5rem;
+  &:hover {
+    background: $color-primary;
+  }
+}
