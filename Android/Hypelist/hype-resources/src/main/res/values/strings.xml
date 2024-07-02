@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">HypeList</string>
+    <string name="base_url">https://endpoints.hypelist.com/api/</string>
+
+
+    <!-- Navigation Titles -->
+    <string name="followers_screen">Followers</string>
+    <string name="account_screen">Account</string>
+    <string name="edit_profile_screen">Edit Profile</string>
+
+    <!-- Username Chooser -->
+    <string name="button_create">Create your account</string>
+    <string name="bad_input_title">Error</string>
+    <string name="bad_input_error">Your Name and Username must not be empty!</string>
+    <string name="bad_input_close">Dismiss</string>
+
+    <!-- Welcome -->
+    <string name="auth_error">It was not possible to sign-in.</string>
+    <string name="auth_fields_empty">Please fill all the fields.</string>
+    <string name="auth_fields_user_taken">User is already taken</string>
+    <string name="auth_fields_generic">Unforeseen mistake. Please try again later.</string>
+
+    <!-- Hypelists -->
+    <string name="your_lists">Your Lists</string>
+    <string name="followers_lists">Following</string>
+    <string name="saved_lists">Saved</string>
+    <string name="user_hypelists">Hypelists</string>
+    <string name="list_no_saved_hypelist">No saved hypelists yet</string>
+    <string name="list_no_saved_hypelist_msg">Search for a hypelist and tap the heart to add it to your ‘Saved’ list</string>
+    <string name="list_no_following_hypelist">No hypelists of the following users yet</string>
+    <string name="list_no_following_hypelist_msg">Search for a user and tap the follow button to add it to your ‘Following’ list</string>
+
+    <!-- Hypelist Dropdown -->
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+
+    <!-- Hypelist Creation -->
+    <string name="bottom_description">This helps us create personalized content and recommendations</string>
+    <string name="cat1">Places</string>
+    <string name="cat2">Entertainment</string>
+    <string name="cat3">Products</string>
+    <string name="cat4">Fitness</string>
+    <string name="cat5">Digital</string>
+    <string name="cat6">Other</string>
+    <string name="cat_desc1">Locations, restaurants, travel itineraries</string>
+    <string name="cat_desc2">TV &amp; Movies, Books, Podcasts</string>
+    <string name="cat_desc3">Fashion, video games, beauty</string>
+    <string name="cat_desc4">Workouts, nutrition</string>
+    <string name="cat_desc5">Apps, social accounts, websites</string>
+    <string name="cat_desc6">For everything else!</string>
+
+    <string name="creation_title">New Hypelist</string>
+    <string name="creation_edit_title">Edit Hypelist</string>
+    <string name="creation_placeholder">Ex. New York, Bucket List</string>
+    <string name="creation_type1">Color</string>
+    <string name="creation_type2">Camera Roll</string>
+    <string name="creation_type3">Stock</string>
+    <string name="sharing_private">Only you will have an ability to see the Hypelist.</string>
+    <string name="sharing_public">All users will have an ability to see your Hypelist and you will be able to create a shareable link.</string>
+    <string name="sharing_settings">Sharing Settings</string>
+    <string name="done_creation">Create</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="hypelists_search">Filter through your lists</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_hypelists">Hypelists</string>
+    <string name="search_people">People</string>
+
+    <!-- Hypelist Creation -->
+    <string name="select_category">What type of Hypelist?</string>
+
+    <!-- Contents -->
+    <string name="map_filter">Filter</string>
+    <string name="new_item">New Item</string>
+    <string name="edit_item">Edit Item</string>
+
+    <string name="bookmark_action">Copy to My Hypelist</string>
+    <string name="move_action">Move to My Hypelist</string>
+
+    <!-- My Contents -->
+    <string name="bad_new_item_error">The Title must not be empty!</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+
+    <!-- Profile Settings -->
+    <string name="profile_bio_placeholder">Hello! Welcome to my Hypelist. I’m based in NY and I love sharing recommentadtions with my friends.</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_notifications">Notifications</string>
+
+    <string name="settings_rate">Rate us on the Google Play</string>
+    <string name="settings_follow">Follow us on Instagram</string>
+    <string name="settings_recommend">Recommend to friends</string>
+
+    <string name="settings_support">Support</string>
+
+    <string name="settings_terms">Terms of Use</string>
+    <string name="settings_privacy">Privacy Policy</string>
+
+    <string name="settings_account">Account</string>
+
+    <!-- Account Screen -->
+    <string name="account_logout">Log Out</string>
+    <string name="account_delete">Delete Account</string>
+
+    <!-- Edit Profile -->
+    <string name="personal_info">Personal Info</string>
+    <string name="email_address">Email Address</string>
+    <string name="bio">Bio</string>
+    <string name="bio_placeholder">Add a short description</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="instagram_placeholder">IG username</string>
+    <string name="tiktok_placeholder">TikTok username</string>
+
+    <!-- Common -->
+    <string name="name_chooser">Your name</string>
+    <string name="username_chooser">Username</string>
+    <string name="save">Save</string>
+    <string name="follow">Follow</string>
+
+    <!-- Home -->
+    <string name="home_create_title">One place to save all your\nrecommendations</string>
+    <string name="home_create_message">Get started by creating a Hypelist\nfor an upcoming trip, your favorite\nmovies or your top skincare products</string>
+</resources>
