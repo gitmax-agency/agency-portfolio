@@ -55,7 +55,7 @@ struct LargeRow: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(maxWidth: 91, maxHeight: 91)
                             .onAppear {
-                                DispatchQueue.global(qos: .background).async {
+                                DispatchQueue.main.async {
                                     self.imageManager.load(url: URL(string: thumbnail), options: [.continueInBackground])
                                     self.imageManager
                                         .setOnSuccess { image, data, error  in
