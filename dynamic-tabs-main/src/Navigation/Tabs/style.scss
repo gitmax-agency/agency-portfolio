@@ -1,0 +1,54 @@
+@import "../../style/variables";
+
+//Tab
+.tab-container {
+  position: relative;
+}
+
+.tab {
+  cursor: pointer;
+  color: $color-dark;
+  padding: 0 3.5rem 0 1.5rem;
+  height: 4.5rem;
+  min-width: 20rem;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid $color-secondary;
+  background: $color-primary;
+  &.non-active {
+    background: $color-secondary;
+    border-bottom: none;
+    &:hover {
+      background: lighten($color: $color-secondary, $amount: 4);
+    }
+  }
+}
+.tab__title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  font-size: 1.4rem;
+}
+
+.tab__close-icon {
+  position: absolute;
+  z-index: 200;
+  top: 1.4rem;
+  right: 1.5rem;
+  color: $color-secondary;
+  cursor: pointer;
+  &:hover {
+    color: lighten($color: $color-secondary, $amount: 3);
+  }
+}
+
+//Tabs
+.tabs-container {
+  display: flex;
+  width: auto;
+}
+
+.btn--icon {
+  border: 0;
+  font-size: 0.1rem;
+}

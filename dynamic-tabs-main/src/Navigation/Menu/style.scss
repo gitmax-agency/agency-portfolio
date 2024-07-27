@@ -1,0 +1,20 @@
+@import "../../style/variables";
+
+.menu-list {
+  background: $color-dark;
+  font-size: 2rem;
+}
+
+.menu-list__item {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: $color-primary;
+  width: 20rem;
+  &.module__item {
+    width: 47rem;
+    cursor: pointer;
+  }
+  &:hover {
+    background: $color-blue;
+  }
+}

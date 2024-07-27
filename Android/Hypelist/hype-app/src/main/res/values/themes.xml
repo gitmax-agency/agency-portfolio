@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.HypeList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Theme.HypeList.SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/hypelistround</item>
+        <item name="postSplashScreenTheme">@style/Theme.HypeList</item>
+        <item name="windowSplashScreenAnimationDuration">0</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

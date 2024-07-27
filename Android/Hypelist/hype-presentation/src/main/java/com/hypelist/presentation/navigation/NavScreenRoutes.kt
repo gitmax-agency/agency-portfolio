@@ -1,0 +1,20 @@
+package com.hypelist.presentation.navigation
+
+enum class NavScreenRoutes(val value: String) {
+    NOWLOADING("NOWLOADING"),
+    WELCOME("WELCOME"),
+    TERMSOFUSE("TERMSOFUSE"),
+    SIGNUP("CHOOSER"),
+    HOME("HOME"),
+    PROFILE("PROFILE"),
+    ACCOUNT("ACCOUNT"),
+    CREATION("CREATION"),
+    NOTIFICATIONS("NOTIFICATIONS"),
+    FOLLOWERS("FOLLOWERS"),
+    OTHERSPROFILE("OTHERSPROFILE"),
+    EDITPROFILE("EDITPROFILE"),
+    CONTENTS("CONTENTS"),
+    MAP("MAP"),
+    FULLSCREEN("FULLSCREEN"),
+    SEARCH("SEARCH")
+}

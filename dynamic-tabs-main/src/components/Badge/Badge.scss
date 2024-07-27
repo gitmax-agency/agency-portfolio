@@ -1,0 +1,36 @@
+.badge {
+  position: absolute;
+  font-size: 0.8rem;
+  background: #f15b2c;
+  border-radius: 0.5rem;
+  min-width: 1rem;
+  height: 1rem;
+  padding: 0 0.2rem;
+  width: fit-content;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge--top-right {
+  top: 20%;
+  left: 52.5%;
+}
+.badge--top-left {
+  top: 20%;
+  right: 52.5%;
+}
+.badge--bottom-right {
+  bottom: 10%;
+  right: 20%;
+}
+.badge--bottom-left {
+  bottom: 10%;
+  left: 20%;
+}
+
+.icon-badge {
+  display: flex;
+  justify-content: center;
+}
